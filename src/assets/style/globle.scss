@@ -1,0 +1,16 @@
+@import "./custom.scss";
+
+$theme_color: #f6c22a;
+
+.btn-prime {
+  color: #fff;
+  background-color: $theme_color;
+  outline: none;
+  border: none;
+  font-weight: 600;
+
+  &:hover {
+    color: #fff;
+    background-color: $theme_color;
+  }
+}
