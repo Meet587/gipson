@@ -28,7 +28,9 @@ const Home = () => {
 
   return (
     <div>
-      <NavigationBar />
+      <div className="position-sticky top-0" style={{ zIndex: "99" }}>
+        <NavigationBar />
+      </div>
       <div id="home">
         <Button className="btn-prime">fsfsdf</Button>
         <div className="hero_home">

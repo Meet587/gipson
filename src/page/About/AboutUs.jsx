@@ -1,8 +1,10 @@
 import React from 'react'
+import NavigationBar from '../../component/Navbar/NavigationBar'
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
+    <div>
+            <NavigationBar />AboutUs</div>
   )
 }
 
